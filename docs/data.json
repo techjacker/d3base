@@ -1,0 +1,13 @@
+{
+    "project": {
+        "name": "d3base",
+        "description": "Base d3 graph class",
+        "version": "0.1.0",
+        "url": "git@github.com:techjacker/d3base.git"
+    },
+    "files": {},
+    "modules": {},
+    "classes": {},
+    "classitems": [],
+    "warnings": []
+}

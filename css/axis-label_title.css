@@ -1,0 +1,86 @@
+/*--------------------------------------
+Graph Title
+---------------------------------------*/
+.basegraph-maingroup .graph-title {
+	font-size: 1em;
+	visibility: hidden;
+}
+
+/*--------------------------------------
+Y Axis Label
+---------------------------------------*/
+.basegraph-maingroup .axis-label-y {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.basegraph-maingroup .axis-label {
+	text-anchor:middle;
+	text-transform: capitalize;
+	font-size:0.8em;
+	font-weight:bold;
+}
+
+/*--------------------------------------
+Inset Y Axis
+---------------------------------------*/
+.basegraph-maingroup  text.inset-y {
+	visibility:hidden;
+	font-size:0.8em;
+	text-anchor: end;
+	font-weight:normal;
+}
+
+/*--------------------------------------
+Media Queries
+---------------------------------------*/
+@media only screen and (min-width: 500px) {
+
+	.basegraph-maingroup  text.inset-y {
+		visibility:inherit;
+	}
+}
+
+/*--------------------------------------
+Big Outset Labels
+---------------------------------------*/
+@media only screen and (min-width: 450px) {
+
+	.basegraph-maingroup .axis-label {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (min-width: 540px) {
+
+	.basegraph-maingroup .graph-title {
+		visibility: inherit;
+	}
+}
+
+
+@media only screen and (min-width: 550px) {
+
+	.basegraph-maingroup .graph-title, .basegraph-maingroup .axis-label {
+		font-size: 1.1em;
+	}
+}
+
+
+
+@media only screen and (min-width: 950px) {
+	.basegraph-maingroup .graph-title, .basegraph-maingroup .axis-label {
+		font-size: 1.15em;
+	}
+}
+
+
+@media only screen and (min-width: 1100px) {
+
+	.basegraph-maingroup .axis-label {
+		font-size:1.4em;
+	}
+}

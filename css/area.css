@@ -1,0 +1,8 @@
+.basegraph-maingroup .area {
+	stroke-width: 0;
+}
+
+.basegraph-maingroup .area {
+	/*fill: lightsteelblue;*/
+	fill-opacity: .1;
+}

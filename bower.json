@@ -1,0 +1,20 @@
+{
+  "name": "d3base",
+  "version": "0.0.1",
+  "description": "Base d3 graph class",
+  "main": "build/d3base.js",
+  "licenses": [{"type": "MIT"}],
+  "author": {
+    "name": "Andrew Griffiths",
+    "email": "mail@andrewgriffithsonline.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:techjacker/d3base.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "visionmedia/mocha": "*",
+    "techjacker/expect.js": "*"
+  }
+}
