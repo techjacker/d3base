@@ -1,0 +1,10 @@
+.basegraph-maingroup .axis path, .basegraph-maingroup .axis line {
+	stroke: grey;
+	fill: none;
+	stroke-width: 1;
+	shape-rendering: crispEdges;
+}
+
+.basegraph-maingroup .x path {
+	stroke-width: 0;
+}

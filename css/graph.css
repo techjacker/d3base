@@ -1,0 +1,17 @@
+.d3-graph {
+}
+
+.basegraph-container {
+	margin-top: 20px; 
+}
+
+.basegraph {
+	border: 1px solid #DEDEDE;
+	padding-bottom: 10px;
+	/*background-color: #F0F4F5;*/
+	/*fill:#333;*/ /* off black > same as body text */
+}
+
+.basegraph-maingroup line {
+	/*shape-rendering: crispEdges;*/
+}

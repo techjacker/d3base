@@ -1,0 +1,39 @@
+{
+  "name": "d3base",
+  "version": "0.0.1",
+  "description": "Base d3 graph class",
+  "repo": "techjacker/d3base",
+  "remotes": [],
+  "demo": "http://www.medicinestats.com",
+  "dependencies": {
+    "mbostock/d3": "time-bst",
+    "visionmedia/configurable.js": "*",
+    "ianstormtaylor/meyer-reset": "*",
+    "yields/capitalize": "*",
+    "techjacker/mitsubishi": "2.4.0"
+  },
+  "development": {
+    "visionmedia/mocha": "*",
+    "techjacker/expect.js": "*"
+  },
+  "main": "lib/main.js",
+  "scripts": [
+    "lib/main.js",
+    "lib/setup.js",
+    "lib/data.js",
+    "lib/draw.js",
+    "tmpl/graph.tmpl.js"
+  ],
+  "paths": [
+    "components-private/medicinestats.com"
+  ],
+  "local": [],
+  "styles": [
+    "css/area.css",
+    "css/axis-label_title.css",
+    "css/axis.css",
+    "css/graph.css",
+    "css/grid.css",
+    "css/line.css"
+  ]
+}
